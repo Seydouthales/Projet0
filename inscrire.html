@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Inscription</title>
+        <link rel="stylesheet" href="inscrire.css">
+    </head>
+    <body>
+        <header>
+             <h1>Page d'inscription</h1>
+        </header><br><br>
+
+        <nav>
+            <ul>
+                <li><a href="accueil.html">Accueil</a></li>
+                <li><a href="inscrire.html">Inscription</a></li>
+                <li><a href="liste_classe.html">Les classes</a></li>
+                <li><a href="liste_prof.html">Liste des professeurs</a></li>
+            </ul>
+        </nav><br><br>
+
+        <h1>Remplir le formulaire d'inscription:</h1>
+        <p>
+            <label for="name">Nom:</label>
+            <input type="text" name="nom" id="nom"><br><br>
+
+            <label for="first_name">Prénom:</label>
+            <input type="text" name="prenom" id="prenom"><br><br>
+
+            <label for="date">Date de naissance:</label>
+            <input type="date" name="date" id="date">
+
+            <label for="address">Lieu de naissance:</label>
+            <input type="text" name="lieu" id="lieu"><br><br>
+
+            <label for="pays">Pays de naissance: <br></label>
+            <select name="pays" id="pays">
+                <option value="Sénégal">Sénégal</option>
+                <option value="Mali">Mali</option>
+                <option value="Niger">Niger</option>
+                <option value="Gambie">Gambie</option>
+                <option value="Mauritanie">Mauritanie</option>
+                <option value="France">France</option>
+                <option value="Maroc">Maroc</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="Belgique">Belgique</option>
+                <option value="Guinée"></option>
+            </select><br><br>
+
+            <label for="class">Classe:</label>
+            <input type="text" name="classe" id="classe"><br><br>
+
+            Choisisser un genre: <br>
+            <input type="checkbox" name="homme" id="homme">
+            <label for="homme">Masculin</label><br>
+
+            <input type="checkbox" name="femme" id="femme">
+            <label for="femme">Féminin</label><br><br>
+
+            <label for="num">Téléphone:</label>
+            <input type="tel" name="num" id="num"><br><br>
+
+            <label for="mail">E-mail:</label>
+            <input type="email" name="mail" id="mail"><br><br>
+
+            <input type="submit" value="Enregistrer">
+        </p>
+    </body>
+</html>
